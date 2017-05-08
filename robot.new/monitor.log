@@ -1,0 +1,55 @@
+2017-04-25 05:27:03,281 INFO  tsviz.robot.App  -> Starting robot...
+2017-04-25 05:27:03,348 INFO  tsviz.robot.App  -> Read configuration file: /opt/tsviz-installation/robot.new/robot.new/config/tsviz-config.properties
+2017-04-25 05:27:03,558 INFO  tsviz.robot.App  -> Connected to TsViz database
+2017-04-25 05:27:03,638 INFO  twitter4j.TwitterStreamImpl  -> Establishing connection.
+2017-04-25 05:27:04,645 INFO  twitter4j.TwitterStreamImpl  -> 406:Returned by the Search API when an invalid format is specified in the request.
+Returned by the Streaming API when one or more of the parameters are not suitable for the resource. The track parameter, for example, would throw this error if:
+ The track keyword is too long or too short.
+ The bounding box specified is invalid.
+ No predicates defined for filtered resource, for example, neither track nor follow parameter defined.
+ Follow userid cannot be read.
+No filter parameters found. Expect at least one parameter: follow track locations
+
+2017-04-25 05:27:04,645 WARN  twitter4j.TwitterStreamImpl  -> Parameter not accepted with the role. 406:Returned by the Search API when an invalid format is specified in the request.
+Returned by the Streaming API when one or more of the parameters are not suitable for the resource. The track parameter, for example, would throw this error if:
+ The track keyword is too long or too short.
+ The bounding box specified is invalid.
+ No predicates defined for filtered resource, for example, neither track nor follow parameter defined.
+ Follow userid cannot be read.
+No filter parameters found. Expect at least one parameter: follow track locations
+
+2017-04-25 05:27:10,642 ERROR tsviz.robot.TwitterMonitor  -> An email containing the thrown exception has been sent to rios.fsa@gmail.com.
+
+2017-04-25 05:28:07,874 INFO  tsviz.robot.App  -> Starting robot...
+2017-04-25 05:28:07,875 INFO  tsviz.robot.App  -> Read configuration file: /opt/tsviz-installation/robot.new/robot.new/config/tsviz-config.properties
+2017-04-25 05:28:08,074 INFO  tsviz.robot.App  -> Connected to TsViz database
+2017-04-25 05:28:08,155 INFO  twitter4j.TwitterStreamImpl  -> Establishing connection.
+2017-04-25 05:28:09,142 INFO  twitter4j.TwitterStreamImpl  -> 406:Returned by the Search API when an invalid format is specified in the request.
+Returned by the Streaming API when one or more of the parameters are not suitable for the resource. The track parameter, for example, would throw this error if:
+ The track keyword is too long or too short.
+ The bounding box specified is invalid.
+ No predicates defined for filtered resource, for example, neither track nor follow parameter defined.
+ Follow userid cannot be read.
+No filter parameters found. Expect at least one parameter: follow track locations
+
+2017-04-25 05:28:09,142 WARN  twitter4j.TwitterStreamImpl  -> Parameter not accepted with the role. 406:Returned by the Search API when an invalid format is specified in the request.
+Returned by the Streaming API when one or more of the parameters are not suitable for the resource. The track parameter, for example, would throw this error if:
+ The track keyword is too long or too short.
+ The bounding box specified is invalid.
+ No predicates defined for filtered resource, for example, neither track nor follow parameter defined.
+ Follow userid cannot be read.
+No filter parameters found. Expect at least one parameter: follow track locations
+
+2017-04-25 05:30:46,304 ERROR tsviz.robot.TwitterMonitor  -> Problem by sending the notification by email: rios.fsa@gmail.com
+2017-04-25 05:36:43,803 INFO  tsviz.robot.App  -> Starting robot...
+2017-04-25 05:36:43,805 INFO  tsviz.robot.App  -> Read configuration file: /opt/tsviz-installation/robot.new/robot.new/config/tsviz-config.properties
+2017-04-25 05:36:43,985 INFO  tsviz.robot.App  -> Connected to TsViz database
+2017-04-25 05:36:44,115 INFO  twitter4j.TwitterStreamImpl  -> Establishing connection.
+2017-04-25 05:36:45,283 INFO  twitter4j.TwitterStreamImpl  -> Connection established.
+2017-04-25 05:36:45,284 INFO  twitter4j.TwitterStreamImpl  -> Receiving status stream.
+2017-05-08 16:32:17,636 INFO  tsviz.robot.App  -> Starting robot...
+2017-05-08 16:32:17,638 INFO  tsviz.robot.App  -> Read configuration file: /opt/tsviz-installation/robot.new/robot.new/config/tsviz-config.properties
+2017-05-08 16:32:17,822 INFO  tsviz.robot.App  -> Connected to TsViz database
+2017-05-08 16:32:17,950 INFO  twitter4j.TwitterStreamImpl  -> Establishing connection.
+2017-05-08 16:32:19,386 INFO  twitter4j.TwitterStreamImpl  -> Connection established.
+2017-05-08 16:32:19,386 INFO  twitter4j.TwitterStreamImpl  -> Receiving status stream.
