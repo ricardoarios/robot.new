@@ -89,7 +89,7 @@ public class TwitterUserPersistence
   private static enum Query
   {
     INSERT("insert into user_twitter (id,name,screen_name,location," +
-      "created_at,utc_offset,time_zone,lang) values (?,?,?,?,?,?,?,?)"),
+      "created_at,utc_offset,time_zone,lang) values (?,?,?,?,?,?,?,?) ON CONFLICT DO NOTHING"),
     FIND_ALL("select id,name,screen_name,location,created_at,utc_offset," +
       "time_zone,lang from user_twitter"),
     FIND_BY_ID("select id,name,screen_name,location,created_at,utc_offset," +

@@ -55,7 +55,7 @@ public class TweetPersistence
 
     try
     {
-      db.getConnection().setAutoCommit(false);
+      //db.getConnection().setAutoCommit(false);
 
       PreparedStatement s = prepareInsert(db, Query.INSERT.sql, false);
 
@@ -69,18 +69,18 @@ public class TweetPersistence
       s.setTimestamp(8, new Timestamp(t.getCreated_at()));
       s.executeUpdate();
       thp.insert(db, t, t.getHashtags());
-      db.getConnection().commit();
-      db.getConnection().setAutoCommit(commit = true);
+      //db.getConnection().commit();
+      //db.getConnection().setAutoCommit(commit = true);
     }
     catch (SQLException e)
     {
       throw new PersistenceException(e);
     }
-    finally
+    /*finally
     {
       if (!commit)
         rollback(db);
-    }
+    }*/
   }
 
   @Override

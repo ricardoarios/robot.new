@@ -163,7 +163,7 @@ public class TwitterMonitor
   {
     listener = new StatusListener()
     {
-      final Email email = new Email("tsviz.com@gmail.com", "tsviz2015");
+      final Email email = new Email("tsviz.com@gmail.com", "Ts41z@tw1tt3r");
       final String to = emailTo;
 
       @Override
